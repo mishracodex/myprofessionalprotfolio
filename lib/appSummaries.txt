@@ -1,0 +1,81 @@
+Petpalz
+Summary
+Petpalz is an all-in-one platform for pet lovers — combining a social community, pet
+management tools, smart health suggestions, and e-commerce features. With support
+for both English and Arabic, it connects pet owners, service providers, and enthusiasts
+across regions.
+
+Pet Owners Community: Instagram-style social feed for sharing and engaging
+Pet Profiles: Add and manage your pets’ details, health records, and updates
+Pet Marketplace: Buy and sell pets or pet-related products
+AI Health Suggestions: Smart vaccine and care reminders tailored to your pet
+Nearby Services: Find pet hospitals, clinics, and shops in your area
+AI Pet Match: Get pet recommendations based on lifestyle and preferences
+Multi-Client Chat: Chat with buyers, sellers, or service providers within the app
+Real-Time Owner Chat: Connect instantly with other pet owners
+Instant App Notifications: Stay updated with alerts, messages, and offers
+Bilingual Support: Available in both English and Arabic
+Features
+
+Key Insights
+Pet Parents community |AI Integration |Pet E-commerce| AI Generated vaccination
+remainders
+
+
+Dive buddies
+Summary
+Divebuddies is a comprehensive diving companion app tailored for scuba divers,
+snorkelers, and underwater explorers. It enables users to discover dive sites, plan trips,
+log dives, and connect with a global diving community — making it ideal for both
+beginners and seasoned divers.
+
+Trip Planning & Expense Management: Plan dives, dive logs, and manage related
+expenses.
+Dive Site Explorer: Find global dive locations with data like depth, visibility, marine
+life & reviews.
+Community & Social: Join diver communities, post experiences, and engage in
+discussions.
+Dive Logs: Track and document dive details and performance.
+Marine Life Guide: Learn about ocean species and conservation.
+AI Recommendations: Get dive site suggestions based on profile & activity.
+Content Moderation: AI filters out offensive content for a safer space.
+Features
+
+Key Insights
+Dive Community | AI Integration | Trip Planning | Expenses management
+
+Guava
+Summary
+Guava is the smart way to shop for food, beverages, cosmetics, and household products. Powered by Journey AI, Guava helps you instantly understand what’s inside the products you use every day — from nutrition and ingredients to price comparisons across stores.
+
+Whether you’re focused on better health, saving money, or finding products that fit your lifestyle, Guava makes it easy to get the best option for your needs and your budget.
+
+🌟 What Guava Does
+
+Scan & Search Products – Use your phone’s camera or search bar to get instant scores.
+
+Nutrition & Health Insights – Understand ingredients and see how products stack up.
+
+Price Tracking & Comparison – Find the most affordable options near you or online.
+
+Personalized Favorites – Save and organize your top products for quick access.
+
+Share With Friends – Send scans and recommendations to your community.
+
+Upgrade to Guava+ – Unlock full data and ad-free shopping with premium features.
+
+🎯 Made for Modern Shoppers
+
+Guava brings culture, clarity, and confidence into everyday shopping. It’s a hip, powerful way to connect your values to what you buy — whether you’re picking out snacks, skincare, or cleaning supplies.
+
+Our goal is simple: help you assemble greatness with products that match your health, values, and wallet.
+
+🔒 Safe & Secure
+
+Your privacy matters. Guava uses secure technology to keep your data safe and transparent.
+
+📲 Download Guava Today
+
+Shopping shouldn’t be confusing. With Guava, you can shop with confidence, culture, and understanding.
+
+👉 Download Guava now and experience a smarter way to shop.
