@@ -15,21 +15,21 @@ import restIcon from "@/app/images/asteroids/rest.png";
 
 export function Hero() {
     const { isLoadingComplete } = useLoading();
-    
+
     return (
         <section id="home" className="relative flex min-h-[90vh] items-center justify-center overflow-hidden pt-24 md:pt-32">
             {/* Background Elements - Optimized CSS Animation */}
             <div className="absolute inset-0 -z-10 overflow-hidden">
                 <div
                     className="absolute top-1/4 left-1/4 h-96 w-96 rounded-full bg-primary/20 blur-[80px]"
-                    style={{ 
+                    style={{
                         animation: 'var(--animate-float-blob-1)',
                         willChange: 'transform'
                     }}
                 />
                 <div
                     className="absolute bottom-1/4 right-1/4 h-96 w-96 rounded-full bg-secondary/20 blur-[80px]"
-                    style={{ 
+                    style={{
                         animation: 'var(--animate-float-blob-2)',
                         willChange: 'transform'
                     }}
@@ -61,23 +61,23 @@ export function Hero() {
                             className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mx-auto md:mx-0"
                         >
                             <Sparkles className="h-4 w-4" />
-                            <span>Available for new opportunities</span>
+                            <span>Available for new opportunitiessss</span>
                         </motion.div>
 
                         <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl lg:text-7xl text-foreground">
-                            <motion.span 
-                                variants={{ 
-                                    hidden: { opacity: 0, y: 20, scale: 0.9 }, 
-                                    visible: { 
-                                        opacity: 1, 
-                                        y: 0, 
+                            <motion.span
+                                variants={{
+                                    hidden: { opacity: 0, y: 20, scale: 0.9 },
+                                    visible: {
+                                        opacity: 1,
+                                        y: 0,
                                         scale: 1,
                                         transition: {
                                             type: "spring",
                                             stiffness: 200,
                                             damping: 15
                                         }
-                                    } 
+                                    }
                                 }}
                             >
                                 Crafting{" "}
@@ -140,20 +140,20 @@ export function Hero() {
                         transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
                         className="flex justify-center md:justify-end relative px-6 md:px-0"
                     >
-                         <div className="relative w-64 h-64 md:w-96 md:h-96">
+                        <div className="relative w-64 h-64 md:w-96 md:h-96">
                             {/* Organic Blob Background */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ scale: 0, rotate: -180 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     rotate: [0, 360],
-                                    scale: [1.05, 1, 1.05] 
+                                    scale: [1.05, 1, 1.05]
                                 } : { scale: 0, rotate: -180 }}
-                                transition={{ 
+                                transition={{
                                     rotate: { duration: 20, repeat: Infinity, ease: "linear" },
-                                    scale: { 
-                                        duration: 20, 
-                                        repeat: Infinity, 
-                                        ease: "linear" 
+                                    scale: {
+                                        duration: 20,
+                                        repeat: Infinity,
+                                        ease: "linear"
                                     },
                                     type: "spring",
                                     stiffness: 100,
@@ -162,9 +162,9 @@ export function Hero() {
                                 }}
                                 className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-secondary/30 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] blur-3xl -z-10"
                             />
-                            
+
                             {/* Image Container */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ scale: 0, rotate: -90 }}
                                 animate={isLoadingComplete ? { scale: 1, rotate: 0 } : { scale: 0, rotate: -90 }}
                                 transition={{
@@ -175,7 +175,7 @@ export function Hero() {
                                 }}
                                 className="w-full h-full rounded-full border-4 border-background shadow-2xl overflow-hidden relative bg-muted flex items-center justify-center"
                             >
-                                <Image 
+                                <Image
                                     src={profilePic}
                                     alt="Aryan Jha - React Native Developer"
                                     fill
@@ -187,28 +187,28 @@ export function Hero() {
                             </motion.div>
 
                             {/* Floating Tech Badges - Evenly Spaced Hexagon with Falling Animation */}
-                            
+
                             {/* Top Center - TypeScript */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -200, opacity: 0, rotate: -180 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, -10, 0],
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -200, opacity: 0, rotate: -180 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0 },
                                     opacity: { duration: 0.4, delay: 0.6 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 100, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 100,
                                         damping: 10,
-                                        delay: 0.6 
+                                        delay: 0.6
                                     }
                                 }}
                                 className="absolute md:-top-12 left-1/2 -translate-x-1/2 md:w-12 md:h-12 bg-background rounded-xl shadow-lg border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={typescriptIcon}
                                     alt="TypeScript"
                                     width={48}
@@ -218,28 +218,28 @@ export function Hero() {
                             </motion.div>
 
                             {/* Top Right - React Native */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -250, x: 100, opacity: 0, rotate: 180 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, -8, 0],
                                     x: 0,
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -250, x: 100, opacity: 0, rotate: 180 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 },
                                     x: { type: "spring", stiffness: 80, damping: 12, delay: 0.7 },
                                     opacity: { duration: 0.4, delay: 0.7 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 120, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 120,
                                         damping: 12,
-                                        delay: 0.7 
+                                        delay: 0.7
                                     }
                                 }}
                                 className="absolute md:top-8 md:-right-12 md:w-16 md:h-16 bg-background rounded-2xl shadow-xl border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={reactNativeIcon}
                                     alt="React Native"
                                     width={64}
@@ -249,28 +249,28 @@ export function Hero() {
                             </motion.div>
 
                             {/* Bottom Right - Firebase */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -220, x: 80, opacity: 0, rotate: -90 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, 8, 0],
                                     x: 0,
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -220, x: 80, opacity: 0, rotate: -90 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
                                     x: { type: "spring", stiffness: 90, damping: 11, delay: 0.8 },
                                     opacity: { duration: 0.4, delay: 0.8 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 110, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 110,
                                         damping: 11,
-                                        delay: 0.8 
+                                        delay: 0.8
                                     }
                                 }}
                                 className="absolute md:bottom-8 md:-right-12 md:w-14 md:h-14 bg-background rounded-2xl shadow-xl border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={firebaseIcon}
                                     alt="Firebase"
                                     width={56}
@@ -280,26 +280,26 @@ export function Hero() {
                             </motion.div>
 
                             {/* Bottom Center - JavaScript */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -180, opacity: 0, rotate: 270 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, 10, 0],
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -180, opacity: 0, rotate: 270 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 },
                                     opacity: { duration: 0.4, delay: 0.9 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 105, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 105,
                                         damping: 10,
-                                        delay: 0.9 
+                                        delay: 0.9
                                     }
                                 }}
                                 className="absolute md:-bottom-12 left-1/2 -translate-x-1/2 md:w-14 md:h-14 bg-background rounded-2xl shadow-xl border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={javascriptIcon}
                                     alt="JavaScript"
                                     width={56}
@@ -309,28 +309,28 @@ export function Hero() {
                             </motion.div>
 
                             {/* Bottom Left - Redux */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -240, x: -100, opacity: 0, rotate: 135 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, -8, 0],
                                     x: 0,
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -240, x: -100, opacity: 0, rotate: 135 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 2 },
                                     x: { type: "spring", stiffness: 85, damping: 12, delay: 1.0 },
                                     opacity: { duration: 0.4, delay: 1.0 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 115, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 115,
                                         damping: 11,
-                                        delay: 1.0 
+                                        delay: 1.0
                                     }
                                 }}
                                 className="absolute md:bottom-8 md:-left-12 md:w-14 md:h-14 bg-background rounded-2xl shadow-xl border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={reduxIcon}
                                     alt="Redux"
                                     width={56}
@@ -340,28 +340,28 @@ export function Hero() {
                             </motion.div>
 
                             {/* Top Left - REST */}
-                            <motion.div 
+                            <motion.div
                                 initial={{ y: -210, x: -90, opacity: 0, rotate: -135 }}
-                                animate={isLoadingComplete ? { 
+                                animate={isLoadingComplete ? {
                                     y: [0, 8, 0],
                                     x: 0,
                                     opacity: 1,
                                     rotate: 0
                                 } : { y: -210, x: -90, opacity: 0, rotate: -135 }}
-                                transition={{ 
+                                transition={{
                                     y: { duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 1 },
                                     x: { type: "spring", stiffness: 95, damping: 11, delay: 1.1 },
                                     opacity: { duration: 0.4, delay: 1.1 },
-                                    rotate: { 
-                                        type: "spring", 
-                                        stiffness: 100, 
+                                    rotate: {
+                                        type: "spring",
+                                        stiffness: 100,
                                         damping: 12,
-                                        delay: 1.1 
+                                        delay: 1.1
                                     }
                                 }}
                                 className="absolute md:top-8 md:-left-12 md:w-12 md:h-12 bg-background rounded-xl shadow-lg border border-border/50 hidden md:flex items-center justify-center overflow-hidden p-2"
                             >
-                                <Image 
+                                <Image
                                     src={restIcon}
                                     alt="REST API"
                                     width={48}
