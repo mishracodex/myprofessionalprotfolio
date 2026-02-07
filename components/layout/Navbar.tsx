@@ -19,7 +19,7 @@ export function Navbar() {
 
     React.useEffect(() => {
         const handleScroll = () => {
-             setScrolled(window.scrollY > 20);
+            setScrolled(window.scrollY > 20);
         };
         window.addEventListener("scroll", handleScroll);
 
@@ -44,7 +44,7 @@ export function Navbar() {
             const element = document.getElementById(id);
             if (element) observer.observe(element);
         });
-        
+
         return () => {
             window.removeEventListener("scroll", handleScroll);
             observer.disconnect();
@@ -67,15 +67,15 @@ export function Navbar() {
     const isActive = (href: string) => {
         // If we are not on home page, fallback to simple pathname match
         if (pathname !== "/") {
-             return pathname === href;
+            return pathname === href;
         }
 
         // On home page, use activeSection from intersection observer
         if (href.includes("#")) {
-             const sectionId = href.split("#")[1];
-             return activeSection === sectionId;
+            const sectionId = href.split("#")[1];
+            return activeSection === sectionId;
         }
-        
+
         return false;
     };
 
@@ -92,8 +92,8 @@ export function Navbar() {
             transition={{ duration: 0.5 }}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link 
-                    href="/" 
+                <Link
+                    href="/"
                     className="text-2xl font-bold"
                     onClick={() => handleLinkClick("/")}
                 >
@@ -102,7 +102,7 @@ export function Navbar() {
                         animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
                     >
-                        Aryan's Portfolio
+                        Rajan's Portfolio
                     </motion.span>
                 </Link>
 
@@ -114,8 +114,8 @@ export function Navbar() {
                             href={link.href}
                             className={cn(
                                 "text-sm font-medium transition-colors relative",
-                                isActive(link.href) 
-                                    ? "text-primary font-semibold" 
+                                isActive(link.href)
+                                    ? "text-primary font-semibold"
                                     : "text-foreground/80 hover:text-primary"
                             )}
                             onClick={() => handleLinkClick(link.href)}
@@ -132,7 +132,7 @@ export function Navbar() {
                             )}
                         </Link>
                     ))}
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanjha557@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajan20julymishra@gmail.com" target="_blank" rel="noopener noreferrer">
                         <Button size="sm">Contact Me</Button>
                     </a>
                     {/* <ThemeToggle /> */}
@@ -164,8 +164,8 @@ export function Navbar() {
                             href={link.href}
                             className={cn(
                                 "text-lg font-medium transition-colors",
-                                isActive(link.href) 
-                                    ? "text-primary" 
+                                isActive(link.href)
+                                    ? "text-primary"
                                     : "text-foreground/80 hover:text-primary"
                             )}
                             onClick={() => handleLinkClick(link.href)}
@@ -173,7 +173,7 @@ export function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanjha557@gmail.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajan20julymishra@gmail.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                         <Button className="w-full">Contact Me</Button>
                     </a>
                 </motion.div>

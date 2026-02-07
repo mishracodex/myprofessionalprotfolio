@@ -12,7 +12,7 @@ export function Footer() {
                             animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
                             transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
                         >
-                            Aryan
+                            Rajan mishra
                         </motion.span>
                     </h3>
                     <p className="text-sm text-slate-400 mt-2">
@@ -20,10 +20,10 @@ export function Footer() {
                     </p>
                 </div>
                 <div className="flex gap-6 text-sm text-slate-400">
-                    <a href="https://www.linkedin.com/in/aryan--jha/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/rajanmishra1994" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
                 </div>
                 <div className="text-sm text-slate-500">
-                    © {new Date().getFullYear()} Aryan. All rights reserved.
+                    © {new Date().getFullYear()} Rajan mishra. All rights reserved.
                 </div>
             </div>
         </footer>

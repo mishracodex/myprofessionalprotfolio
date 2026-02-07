@@ -79,7 +79,7 @@ export function LoadingScreen({ onLoadingComplete }: LoadingScreenProps) {
                   ease: "linear",
                 }}
               >
-                ARYAN
+                RAJAN MISHRA
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -108,7 +108,7 @@ export function LoadingScreen({ onLoadingComplete }: LoadingScreenProps) {
                 }}
                 className="h-16 w-16 rounded-full border-4 border-primary/20 border-t-primary"
               />
-              
+
               {/* Inner Ring - Counter Rotation */}
               <motion.div
                 animate={{ rotate: -360 }}

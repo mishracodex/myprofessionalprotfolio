@@ -46,14 +46,14 @@ export function Portfolio() {
                         <div className="relative z-10 bg-background/95 backdrop-blur-md border border-primary/20 rounded-full pl-3 md:pl-6 pr-4 md:pr-8 py-2 md:py-3 shadow-xl shadow-primary/5 flex items-center gap-2 md:gap-4 group hover:border-primary/40 transition-all duration-300">
                             <div className="flex items-center gap-2 md:gap-3">
                                 <span className="relative flex h-2 w-2 md:h-3 md:w-3">
-                                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                  <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-primary"></span>
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-primary"></span>
                                 </span>
                                 <span className="font-bold text-sm md:text-lg tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80 group-hover:text-primary transition-colors">{companyName}</span>
                             </div>
                             <div className="w-px h-4 md:h-5 bg-border/60" />
                             <span className="text-xs md:text-sm font-medium text-muted-foreground/80 whitespace-nowrap group-hover:text-primary/80 transition-colors">
-                                Sept 2024 - Present
+                                Dec 2024 - Present
                             </span>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export function Portfolio() {
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 className="flex flex-col gap-6"
                             >
-                                <Link 
+                                <Link
                                     href={`/work/${project.slug}`}
                                     className="block group relative overflow-hidden rounded-3xl border border-white/10 shadow-lg"
                                 >
@@ -101,7 +101,7 @@ export function Portfolio() {
                                             </span>
                                         </div>
                                     </div>
-                                    
+
                                     <div className="p-6 bg-white/5 backdrop-blur-sm border-t border-white/5">
                                         <div className="flex flex-wrap gap-2 mb-4">
                                             {project.tags.slice(0, 3).map(tag => (
@@ -128,7 +128,7 @@ export function Portfolio() {
                         {projects.map((project, index) => {
                             const isEven = index % 2 === 0;
                             return (
-                                <motion.div 
+                                <motion.div
                                     key={project.slug}
                                     initial={{ opacity: 0, y: 50 }}
                                     whileInView={{ opacity: 1, y: 0 }}
@@ -156,12 +156,12 @@ export function Portfolio() {
                                                 <p className="text-muted-foreground text-sm line-clamp-3 mb-4">
                                                     {project.description}
                                                 </p>
-                                                
-                                                <Link 
+
+                                                <Link
                                                     href={`/work/${project.slug}`}
                                                     className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
                                                 >
-                                                    View Project 
+                                                    View Project
                                                     <ArrowRight className="w-4 h-4 ml-1" />
                                                 </Link>
                                             </div>
@@ -192,7 +192,7 @@ export function Portfolio() {
                                                     className="relative object-cover transition-transform duration-500 group-hover:scale-105"
                                                     quality={85}
                                                 />
-                                                
+
                                                 {/* Hover Overlay */}
                                                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                                     <span className="px-4 py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20 text-white text-sm font-medium">
@@ -211,7 +211,7 @@ export function Portfolio() {
                     </div>
 
                     {/* End Node */}
-                     <div className="relative flex justify-center mt-24">
+                    <div className="relative flex justify-center mt-24">
                         <div className="w-3 h-3 rounded-full bg-border" />
                     </div>
                 </div>

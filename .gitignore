@@ -9,9 +9,13 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+npm-debug.log
+yarn-error.log
+yarn.lock
 
 # testing
 /coverage
+package-lock.json
 
 # next.js
 /.next/

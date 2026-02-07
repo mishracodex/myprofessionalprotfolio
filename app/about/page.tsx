@@ -16,20 +16,20 @@ export default function AboutPage() {
     ];
 
     const values = [
-        { 
-            icon: Code2, 
-            title: "Clean Code", 
-            desc: "Writing maintainable, reusable components that scale with your product" 
+        {
+            icon: Code2,
+            title: "Clean Code",
+            desc: "Writing maintainable, reusable components that scale with your product"
         },
-        { 
-            icon: Zap, 
-            title: "Performance", 
-            desc: "Optimizing apps for speed and smooth user experiences" 
+        {
+            icon: Zap,
+            title: "Performance",
+            desc: "Optimizing apps for speed and smooth user experiences"
         },
-        { 
-            icon: Users, 
-            title: "Collaboration", 
-            desc: "Working closely with designers and backend teams to deliver quality" 
+        {
+            icon: Users,
+            title: "Collaboration",
+            desc: "Working closely with designers and backend teams to deliver quality"
         }
     ];
 
@@ -67,7 +67,7 @@ export default function AboutPage() {
 
                         <div className="space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed">
                             <p>
-                                I'm a <strong className="text-foreground">React Native Developer</strong> with 1.5+ years of experience building cross-platform mobile applications for iOS and Android. I work on production apps used by real users, focusing on performance, scalability, and smooth user experiences.
+                                I'm a <strong className="text-foreground">React Native Developer</strong> with 3 years of experience building cross-platform mobile applications for iOS and Android. I work on production apps used by real users, focusing on performance, scalability, and smooth user experiences.
                             </p>
                             <p>
                                 My work includes real-time chat systems, offline-first features, push notifications, subscription-based in-app purchases, and performance optimizations for large-scale apps. I enjoy turning complex product requirements into simple and reliable mobile experiences.
@@ -78,10 +78,10 @@ export default function AboutPage() {
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-10">
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanjha557@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajan20julymishra@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg">Contact Me</Button>
                             </a>
-                            <Link href="https://drive.google.com/file/d/1qNof1f3G_vXFSFSDUCN4yJgNdfXDrc2t/view?usp=sharing" target="_blank">
+                            <Link href="https://drive.google.com/file/d/1RIJdTN9Iipce6P-N_F0DJVuIsTkpuZwY/view?usp=drive_link" target="_blank">
                                 <Button variant="outline" size="lg">View Resume</Button>
                             </Link>
                         </div>
@@ -177,7 +177,7 @@ export default function AboutPage() {
                             <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-8">
                                 I'm actively looking for full-time opportunities where I can contribute to meaningful products and work with teams that care about quality and user experience.
                             </p>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanjha557@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajan20julymishra@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg" className="group">
                                     Contact Me
                                     <Smartphone className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

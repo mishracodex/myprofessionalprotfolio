@@ -1,62 +1,42 @@
-import { dashboard, nextjsFour, nextjsThree, nextjsTwo, seoOne, seoTwo, seoThree, seoFour, seoFive, mobOne, mobTwo, mobThree, rnOne, rnTwo, rnThree, rnFour, rnFive, offlineOne, offlineTwo, offlineThree, offlineFour, offlineFive, guavaCover, divebuddiesCover, dynamicOne, dynamicTwo, dynamicThree, dynamicFour, petpalzCover, guavaPlus, homeGuava, productDetailGuava, profileGuava, scan, searchFeatureGuava, favouriteGuava, filtersGuava, moneyGuapGuava, scanHistoryGuava, userOnboardingGuava, createPostPetpalz, hospitalPetpalz, petpalzChat, petpalzHome, petshopPetpalz, profilePetpalz, qrPagePetpalz, settingsPetpalz, userOnboardingDive, createPostDive, diveLog, diveMap, expense, homedive, login, profile, tripPlannerDive, toonschoolCover, toonschoolLogin, toonschoolHome, toonschoolInsta, toonschoolChat, toonschoolNotice, toonschoolCalendar, toonparentCover, toonparentLogin, toonparentHome, toonparentInsta, toonparentChat, toonparentNotice, toonparentCalendar } from "@/app/images";
+import { dashboard, nextjsFour, nextjsThree, nextjsTwo, seoOne, seoTwo, seoThree, seoFour, seoFive, mobOne, mobTwo, mobThree, rnOne, rnTwo, rnThree, rnFour, rnFive, offlineOne, offlineTwo, offlineThree, offlineFour, offlineFive, guavaCover, divebuddiesCover, dynamicOne, dynamicTwo, dynamicThree, dynamicFour, petpalzCover, guavaPlus, homeGuava, productDetailGuava, profileGuava, scan, searchFeatureGuava, favouriteGuava, filtersGuava, moneyGuapGuava, scanHistoryGuava, userOnboardingGuava, createPostPetpalz, hospitalPetpalz, petpalzChat, petpalzHome, petshopPetpalz, profilePetpalz, qrPagePetpalz, settingsPetpalz, userOnboardingDive, createPostDive, diveLog, diveMap, expense, homedive, login, profile, tripPlannerDive, ark1, ark2, ark3, ark4, ark5, ark6, ark7, ark8, ark9, ark10, ark11, ark12, ark13, ark14, arkLogo } from "@/app/images";
 
 
 export const apps = [
     {
-        slug: "toonschool",
-        title: "Toondemy School",
+        slug: "ark-concierge",
+        title: "Ark Concierge",
         company: "CodingWorkx",
-        description: "An offline-first EdTech platform for schools to manage attendance, enable real-time communication, and engage with parents.",
-        longDescription: "An EdTech cross-platform mobile app (React Native, iOS, Android) enabling real-time school-parent communication, attendance tracking, and offline-first data synchronization for reliable performance in low-connectivity scenarios.",
+        description: "An online Health Insurance management platform for families to view plans, update health info, and raise claims.",
+        longDescription: "Ark Concierge is a comprehensive insurance management platform that allows users to view purchased insurance plans for themselves and their family members. Users can update health information, raise insurance requests, and file claims directly from the app. It features a hospital locator to find nearby health facilities and integrated biometric login for secure access.",
         features: [
-            "Developed a real-time chat module using Socket.io, supporting messaging, media sharing, typing indicators, and auto-reconnection.",
-            "Implemented push notifications and automated event-based notifications using Firebase Cloud Messaging (FCM) triggered by user actions.",
-            "Integrated Realm DB to support offline data storage and synchronization for improved reliability in low-connectivity scenarios.",
-            "Implemented QR-based attendance scanning using Vision Camera for fast and reliable check-ins.",
-            "Optimized large lists using FlashList to improve scroll performance and reduce memory usage.",
-            "Developed reusable components to ensure UI consistency and faster feature development across the app."
+            "Onboarding: Basic registration and login process along with user verification via verification link.",
+            "Browse Insurances: Users can view their purchased insurance plans.",
+            "Health Information: View and update health information for self and family members.",
+            "My Claims: View all raised claims from the platform.",
+            "Requests: Raise requests for different services directly from the app.",
+            "Hospital Locator: Browse available health facilities nearby using current location.",
+            "Biometric Login: Secure and quick access using fingerprint or face ID."
         ],
-        techStack: ["React Native", "Socket.io", "Firebase Cloud Messaging", "Realm DB", "Vision Camera", "FlashList"],
+        techStack: ["React Native", "Maps Integration", "Biometrics", "REST API"],
         screenshots: [
-            toonschoolLogin.src,
-            toonschoolHome.src,
-            toonschoolInsta.src,
-            toonschoolChat.src,
-            toonschoolNotice.src,
-            toonschoolCalendar.src
+            ark2.src,
+            ark3.src,
+            ark4.src,
+            ark5.src,
+            ark6.src,
+            ark7.src,
+            ark8.src,
+            ark9.src,
+            ark10.src,
+            ark11.src,
+            ark12.src,
+            ark13.src,
+            ark14.src
         ],
-        coverImage: toonschoolCover.src,
-        ios: "https://apps.apple.com/in/app/toondemy-school/id6740325974",
-        android: "https://play.google.com/store/apps/details?id=com.creativegalileo.gyanschool&hl=en_IN",
-        tags: ["EdTech", "Education", "Schools"],
-    },
-    {
-        slug: "toonparent",
-        title: "Toondemy Parent",
-        company: "CodingWorkx",
-        description: "The parent companion app for Toondemy, enabling real-time updates on student attendance, instant messaging with teachers, and school event notifications.",
-        longDescription: "The parent-focused companion to ToonSchool, providing real-time insights into student activities, direct communication with teachers, and offline access to important school information.",
-        features: [
-            "Developed a real-time chat module using Socket.io, supporting messaging, media sharing, typing indicators, and auto-reconnection.",
-            "Implemented push notifications and automated event-based notifications using Firebase Cloud Messaging (FCM) triggered by user actions.",
-            "Integrated Realm DB to support offline data storage and synchronization for improved reliability in low-connectivity scenarios.",
-            "Implemented QR-based attendance scanning using Vision Camera for fast and reliable check-ins.",
-            "Optimized large lists using FlashList to improve scroll performance and reduce memory usage.",
-            "Developed reusable components to ensure UI consistency and faster feature development across the app."
-        ],
-        techStack: ["React Native", "Socket.io", "Firebase Cloud Messaging", "Realm DB", "Vision Camera", "FlashList"],
-        screenshots: [
-            toonparentLogin.src,
-            toonparentHome.src,
-            toonparentInsta.src,
-            toonparentChat.src,
-            toonparentNotice.src,
-            toonparentCalendar.src
-        ],
-        coverImage: toonparentCover.src,
-        ios: "https://apps.apple.com/in/app/toondemy-parent/id6740322114",
-        android: "https://play.google.com/store/apps/details?id=com.creativegalileo.gyanfamily&hl=en_IN",
-        tags: ["EdTech", "Education", "Parents"],
+        coverImage: arkLogo.src,
+        ios: "https://apps.apple.com/us/app/ark-concierge/id6737770321",
+        android: "https://play.google.com/store/apps/details?id=com.arkinsurance.health&hl=en_IN",
+        tags: ["InsurTech", "Health", "Utility"],
     },
     {
         slug: "guava-product-scanner",

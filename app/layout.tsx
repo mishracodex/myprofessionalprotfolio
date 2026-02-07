@@ -16,24 +16,24 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Aryan Jha | React Native Developer Portfolio",
-    template: "%s | Aryan Jha"
+    default: "Rajan Mishra | React Native Developer Portfolio",
+    template: "%s | Rajan Mishra"
   },
-  description: "React Native Developer with 1.5+ years of experience crafting cross-platform iOS and Android apps. Specializing in high-performance mobile applications with real-time features, offline support, and seamless user experiences.",
+  description: "React Native Developer with 3 years of experience crafting cross-platform iOS and Android apps. Specializing in high-performance mobile applications with real-time features, offline support, and seamless user experiences.",
   keywords: ["React Native Developer", "Mobile App Developer", "iOS Developer", "Android Developer", "Cross-Platform Development", "JavaScript", "TypeScript", "Firebase", "Redux"],
-  authors: [{ name: "Aryan Jha" }],
-  creator: "Aryan Jha",
+  authors: [{ name: "Rajan Mishra" }],
+  creator: "Rajan Mishra",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aryanjha.com",
-    title: "Aryan Jha | React Native Developer Portfolio",
-    description: "React Native Developer with 1.5+ years of experience crafting cross-platform mobile applications.",
-    siteName: "Aryan Jha Portfolio"
+    url: "https://rajanmishra.com",
+    title: "Rajan Mishra | React Native Developer Portfolio",
+    description: "React Native Developer with 3 years of experience crafting cross-platform mobile applications.",
+    siteName: "Rajan Mishra Portfolio"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aryan Jha | React Native Developer Portfolio",
+    title: "Rajan Mishra | React Native Developer Portfolio",
     description: "React Native Developer specializing in high-performance mobile applications",
   },
   robots: {

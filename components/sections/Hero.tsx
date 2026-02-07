@@ -111,20 +111,20 @@ export function Hero() {
                             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
                             className="mb-8 text-lg text-muted-foreground md:text-xl max-w-lg mx-auto md:mx-0"
                         >
-                            React Native Developer with 1.5+ years of experience crafting cross-platform iOS and Android apps used by real users. I specialize in building scalable, high-performance mobile applications with real-time features, offline support, and seamless user experiences.
+                            React Native Developer with 3 years of experience crafting cross-platform iOS and Android apps used by real users. I specialize in building scalable, high-performance mobile applications with real-time features, offline support, and seamless user experiences.
                         </motion.p>
 
                         <motion.div
                             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
                             className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start"
                         >
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aryanjha557@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rajan20julymishra@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg" className="group">
                                     Email Me
                                     <Mail className="ml-2 h-4 w-4" />
                                 </Button>
                             </a>
-                            <a href="https://drive.google.com/file/d/1qNof1f3G_vXFSFSDUCN4yJgNdfXDrc2t/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/1RIJdTN9Iipce6P-N_F0DJVuIsTkpuZwY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                                 <Button variant="outline" size="lg">
                                     Resume
                                     <ExternalLink className="ml-2 h-4 w-4" />
@@ -177,7 +177,7 @@ export function Hero() {
                             >
                                 <Image
                                     src={profilePic}
-                                    alt="Aryan Jha - React Native Developer"
+                                    alt="Rajan Mishra - React Native Developer"
                                     fill
                                     sizes="(max-width: 768px) 256px, 384px"
                                     className="object-cover"
