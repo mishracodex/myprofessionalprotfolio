@@ -73,7 +73,7 @@ export default function ProjectPage({ params }: Props) {
                                     }}
                                     className="inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm md:text-base font-medium border border-primary/30 bg-transparent hover:bg-primary/10 transition-colors cursor-pointer"
                                 >
-                                    <span className="text-xl"></span> Play Storeee
+                                    <span className="text-xl"></span> Play Store
                                 </button>
                             </>
                         ) : (
