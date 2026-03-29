@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/Button";
 import { ArrowRight, Sparkles, ExternalLink, Mail } from "lucide-react";
 import { useLoading } from "@/components/layout/LoadingContext";
 import Image from "next/image";
-import profilePic from "@/app/images/profilePicture/profile.png";
+// import profilePic from "@/app/images/profilePicture/profile.png";
+import profilePic from "@/app/images/profilePicture/profileImg2.png"
+
 import typescriptIcon from "@/app/images/asteroids/typescript.png";
 import reactNativeIcon from "@/app/images/asteroids/reactNative.png";
 import firebaseIcon from "@/app/images/asteroids/firebase.png";
