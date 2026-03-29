@@ -19,7 +19,7 @@ export default function ProjectPage({ params }: Props) {
     // Unwrap the params Promise - In Next.js 15+, params is a Promise
     const unwrappedParams = React.use(params);
     const app = apps.find((a) => a.slug === unwrappedParams.slug);
-    
+
     const [showModal, setShowModal] = React.useState(false);
     const [modalStore, setModalStore] = React.useState<'ios' | 'android'>('ios');
 
@@ -31,12 +31,12 @@ export default function ProjectPage({ params }: Props) {
         <div className="min-h-screen bg-background w-full">
             {/* Immersive Hero Header */}
             <div className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
-                <div 
+                <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{ backgroundImage: `url(${app.coverImage})` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-black/30" />
-                
+
                 <div className="container mx-auto px-4 md:px-6 h-full flex flex-col justify-end pb-12 md:pb-20 relative z-10">
                     <Link href="/#work" className="inline-flex items-center text-white/80 hover:text-primary transition-colors mb-6 md:mb-8 w-fit bg-black/20 backdrop-blur-md px-3 md:px-4 py-2 rounded-full border border-white/10 text-sm md:text-base">
                         <ArrowLeft className="mr-2 h-4 w-4" /> Back to Work
@@ -45,7 +45,7 @@ export default function ProjectPage({ params }: Props) {
                     <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 text-white text-shadow-lg break-words">
                         {app.title}
                     </h1>
-                    
+
                     <div className="flex flex-wrap items-center gap-2 md:gap-4 mb-6 md:mb-8">
                         {app.tags.map(tag => (
                             <span key={tag} className="px-3 md:px-4 py-1 md:py-1.5 text-xs md:text-sm font-medium rounded-full bg-primary/20 text-primary border border-primary/30 backdrop-blur-md">
@@ -73,7 +73,7 @@ export default function ProjectPage({ params }: Props) {
                                     }}
                                     className="inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm md:text-base font-medium border border-primary/30 bg-transparent hover:bg-primary/10 transition-colors cursor-pointer"
                                 >
-                                    <span className="text-xl"></span> Play Store
+                                    <span className="text-xl"></span> Play Storeee
                                 </button>
                             </>
                         ) : (
@@ -154,7 +154,7 @@ export default function ProjectPage({ params }: Props) {
                             <div className="glass-card p-6 md:p-8 rounded-3xl sticky top-24 border border-white/10">
                                 <h3 className="text-lg md:text-xl font-bold mb-4 md:mb-6 border-b border-white/10 pb-4">Technologies</h3>
                                 <TechStackList techStack={app.techStack} />
-                                
+
                                 <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/10">
                                     <h3 className="text-lg md:text-xl font-bold mb-4">Project Info</h3>
                                     <dl className="space-y-3 md:space-y-4">
@@ -194,7 +194,7 @@ export default function ProjectPage({ params }: Props) {
                             onClick={() => setShowModal(false)}
                             className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
                         />
-                        
+
                         {/* Modal */}
                         <motion.div
                             initial={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -223,7 +223,7 @@ export default function ProjectPage({ params }: Props) {
                                     App Currently Unpublished
                                 </h3>
                                 <p className="text-sm md:text-base text-muted-foreground text-center leading-relaxed mb-6">
-                                    This app is not currently available on the {modalStore === 'ios' ? 'App Store' : 'Play Store'}. 
+                                    This app is not currently available on the {modalStore === 'ios' ? 'App Store' : 'Play Store'}.
                                     The link will be updated as soon as the app is published.
                                 </p>
 
